@@ -1,6 +1,6 @@
 <?php
 	echo "Hello world!!!";
 	echo "--------------------------------";
-	echo "Teste local";
-
+	echo "Versão 2.0.";
+	echo "Novo teste - concluído com exito.";
 ?>
