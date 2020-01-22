@@ -1,22 +1,24 @@
+COMANDOS B√ÅSICOS NO GIT
+
 + acessar a pasta
 cd "caminho"
 
-+ caso a pasta ainda n„o tenha o layout/requisitos do git
++ caso a pasta ainda n√£o tenha o layout/requisitos do git
 git init (cria a pasta oculta ".git")
 
 + para adicionar todos os arquivos e pastas na stagearea
 git add --all
 
-+ para adicionar um arquivo especÌfico na stagearea
-git add "nome do arquivo.extens„o" (sem aspas)
++ para adicionar um arquivo espec√≠fico na stagearea
+git add "nome do arquivo.extens√£o" (sem aspas)
 
-+ commit para confirmar as alteraÁıes
++ commit para confirmar as altera√ß√µes
 git commit -m "comentario x"
 
-+ adicionar o repositÛrio remoto
++ adicionar o reposit√≥rio remoto
 git remote add origin "url do servidor remoto" (sem aspas)
 
-+ configurar login no repositÛrio remoto
-git --global user.name "Nome de usu·rio como est· cadastrado" (com aspas mesmpo)
-git --global user.email "email que est· cadastrado" (com aspas mesmpo)
++ configurar login no reposit√≥rio remoto
+git --global user.name "Nome de usu√°rio como est√° cadastrado" (com aspas mesmpo)
+git --global user.email "email que est√° cadastrado" (com aspas mesmpo)
 
