@@ -6,4 +6,5 @@
 
 	echo "<br/></br>";
 	echo "ABC $nome";
+	echo "<br/>ABC " . $nome;
 ?>
