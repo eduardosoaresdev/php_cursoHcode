@@ -1,0 +1,24 @@
+COMANDOS BÁSICOS NO GIT
+
++ acessar a pasta
+cd "caminho"
+
++ caso a pasta ainda não tenha o layout/requisitos do git
+git init (cria a pasta oculta ".git")
+
++ para adicionar todos os arquivos e pastas na stagearea
+git add --all
+
++ para adicionar um arquivo específico na stagearea
+git add "nome do arquivo.extensão" (sem aspas)
+
++ commit para confirmar as alterações
+git commit -m "comentario x"
+
++ adicionar o repositório remoto
+git remote add origin "url do servidor remoto" (sem aspas)
+
++ configurar login no repositório remoto
+git --global user.name "Nome de usuário como está cadastrado" (com aspas mesmpo)
+git --global user.email "email que está cadastrado" (com aspas mesmpo)
+
